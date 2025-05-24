@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Biomech Snake</title>
+  <style>
+    body { margin: 0; background: black; overflow: hidden; }
+    .not-found {
+      position: absolute;
+      top: 40px;
+      left: 0;
+      width: 100vw;
+      text-align: center;
+      color: #ff4444;
+      font-size: 3rem;
+      font-family: monospace, sans-serif;
+      letter-spacing: 2px;
+      text-shadow: 0 2px 8px #000;
+      z-index: 10;
+      pointer-events: none;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="not-found">404 PAGE NOT FOUND</div>
+  <canvas id="canvas"></canvas>
+  <!-- <script type="module" src="./src/main.ts"></script> -->
+  <script type="module" src="./dist/main.js"></script>
+</body>
+</html>
